@@ -77,12 +77,7 @@
 addressbook/
 ├── main.c                  // Main menu driver
 ├── contact.c   / contact.h // Core contact operations (create, list)
-├── file.c      / file.h    // Save/load contacts to CSV
-├── validate.c  / validate.h// Phone & email validation
-├── edit_contact.c / .h     // Edit contact logic
-├── search_contact.c / .h   // Search functionality
-├── delete_contact.c / .h   // Delete contact logic
-├── contact.csv             // Data file (auto-created)
+├── contact.txt             // A plain text file used to store and view saved contact details in a human-readable format (Name, Phone, Email).
 └── README.md               // Project documentation
 ````
 
