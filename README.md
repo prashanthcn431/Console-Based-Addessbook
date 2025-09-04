@@ -10,7 +10,7 @@
 <h1 align="center">📘 Console-Based Address Book (C)</h1>
 
 <p align="center">
-  A simple, modular, menu-driven address book in C with CSV persistence, input validation, and clean .c/.h separation.
+  A simple, modular, menu-driven address book in C , input validation, and clean .c/.h separation.
 </p>
 
 <p align="center">
@@ -153,20 +153,7 @@ Bob,9123456789,bob@work.com
 * **`contact.c / contact.h`**
   Create and list contacts; in-memory storage operations.
 
-* **`file.c / file.h`**
-  Load contacts from `contact.csv` on start; save on create/edit/delete.
 
-* **`validate.c / validate.h`**
-  Functions to validate 10-digit phone and `.com` email patterns.
-
-* **`search_contact.c / .h`**
-  Search by name/phone/email (exact match).
-
-* **`edit_contact.c / .h`**
-  Edit fields of an existing contact with validation.
-
-* **`delete_contact.c / .h`**
-  Delete a contact with user confirmation, then persist.
 
 <hr/>
 
@@ -216,7 +203,4 @@ Feel free to **fork** or **contribute**.
 Have suggestions or improvements?
 Please open an **Issue** or **Pull Request**. Collaboration is welcome!
 
-```
-
-If you want, I can also add a small **Makefile**, an example `contact.h` struct, or a stricter email/phone regex—just say the word.
 ```
