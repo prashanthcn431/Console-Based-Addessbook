@@ -92,13 +92,13 @@ addressbook/
 **Compile:**
 
 ```bash
-gcc main.c contact.c file.c validate.c edit_contact.c search_contact.c delete_contact.c -o addressbook
+gcc *.c
 ```
 
 **Run:**
 
 ```bash
-./addressbook
+./a.out
 ```
 
 <hr/>
